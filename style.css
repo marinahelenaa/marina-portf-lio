@@ -87,4 +87,16 @@ form button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+  .swiper-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+
 }
