@@ -1,5 +1,9 @@
-const toggleBtn = document.getElementById('mode-toggle');
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark');
-  toggleBtn.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+
+const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
 });
+
+AOS.init();
