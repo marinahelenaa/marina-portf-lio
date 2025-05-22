@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Marina Helena | Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfólio Marina Helena</title>
+<style>
+  body {
+    margin: 0; font-family: Arial, sans-serif; background: #fff; color: #1d1e20;
+  }
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+  }
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1d1e20;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: #555;
+  }
+  main {
+    padding-top: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+  h1, h2 {
+    font-weight: 700;
+  }
+</style>
 </head>
 <body>
-
 <header>
-  <h1>Marina Helena</h1>
   <nav>
-    <a href="index.html">Início</a>
-    <a href="curriculo.html">Currículo</a>
-    <a href="contato.html">Contato</a>
+    <a href="#home">Home</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#motion">Motion Design</a>
+    <a href="#curriculo">Currículo</a>
+    <a href="#contato">Contato</a>
   </nav>
-  <button id="mode-toggle">🌙</button>
 </header>
 
 <main>
-  <section class="intro">
-    <h2>Designer Gráfico e Motion</h2>
-    <p>Bem-vindo ao meu portfólio. Aqui você encontra meus principais projetos em design gráfico e motion.</p>
+  <section id="home">
+    <h1>Marina Helena</h1>
+    <p>Designer criativa e minimalista</p>
   </section>
 
-  <section class="portfolio">
+  <section id="projetos">
     <h2>Projetos</h2>
-    <div class="project">Projeto Estático 1</div>
-    <div class="project">Projeto Estático 2</div>
-    <div class="project">Projeto Motion 1</div>
-    <div class="project">Projeto Motion 2</div>
+    <p>Seção com seus principais trabalhos.</p>
+  </section>
+
+  <section id="motion">
+    <h2>Motion Design</h2>
+    <p>Seção para mostrar seus trabalhos em motion design.</p>
+  </section>
+
+  <section id="curriculo">
+    <h2>Currículo</h2>
+    <p>Resumo profissional, formação e experiência.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email, redes sociais, formulário de contato.</p>
   </section>
 </main>
-
-<script src="script.js"></script>
 </body>
 </html>
